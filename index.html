@@ -1,7 +1,10 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepak Dukare | Portfolio</title>
+    <title>Mayur Lad | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/all.min.css">
     <style>
@@ -12,6 +15,7 @@
             background-clip: text;
             color: transparent;
         }
+
         .timeline-item:not(:last-child)::after {
             content: '';
             position: absolute;
@@ -21,37 +25,44 @@
             width: 2px;
             background: #e5e7eb;
         }
+
         .project-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
+
         .skill-pill:hover {
             transform: scale(1.05);
         }
+
         #mobile-menu {
             transition: all 0.3s ease-in-out;
         }
+
         .linkedin-post {
             border-left: 4px solid #0a66c2;
             transition: all 0.3s ease;
         }
+
         .linkedin-post:hover {
             transform: translateX(5px);
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
+
         .certification-card:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
+
 <body class="bg-gray-50 font-sans text-gray-800">
     <!-- Navigation -->
     <nav class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
-                    <a href="#" class="text-xl font-bold gradient-text">Deepak Dukare</a>
+                    <a href="#" class="text-xl font-bold gradient-text">Mayur Lad</a>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#home" class="text-gray-700 hover:text-blue-600 transition">Home</a>
@@ -64,7 +75,8 @@
                 <div class="md:hidden flex items-center">
                     <button id="menu-toggle" class="text-gray-700 focus:outline-none">
                         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
                         </svg>
                     </button>
                 </div>
@@ -73,12 +85,19 @@
         <!-- Mobile menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Home</a>
-                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About</a>
-                <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Experience</a>
-                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Projects</a>
-                <a href="#live-projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Live Projects</a>
-                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Contact</a>
+                <a href="#home"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Home</a>
+                <a href="#about"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">About</a>
+                <a href="#experience"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Experience</a>
+                <a href="#projects"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Projects</a>
+                <a href="#live-projects"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Live
+                    Projects</a>
+                <a href="#contact"
+                    class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50">Contact</a>
             </div>
         </div>
     </nav>
@@ -88,22 +107,34 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row items-center justify-between">
                 <div class="md:w-1/2 mb-10 md:mb-0">
-                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="gradient-text">Deepak Dukare</span></h1>
-                    <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">Full Stack Developer & AI Enthusiast</h2>
-                    <p class="text-lg text-gray-600 mb-8">B.E. in Computer Science with expertise in MERN stack, Python, and AI/ML technologies. Passionate about building innovative solutions that solve real-world problems.</p>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="gradient-text">Mayur Lad</span>
+                    </h1>
+                    <h2 class="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">Full Stack Developer & AI
+                        Enthusiast</h2>
+                    <p class="text-lg text-gray-600 mb-8">B.E. in Computer Science with expertise in MERN stack, Python,
+                        and AI/ML technologies. Passionate about building innovative solutions that solve real-world
+                        problems.</p>
                     <div class="flex space-x-4">
-                        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition">Contact Me</a>
-                        <a href="#projects" class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition">View Projects</a>
-                        <a href="#" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition flex items-center" id="download-resume">
+                        <a href="#contact"
+                            class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition">Contact
+                            Me</a>
+                        <a href="#projects"
+                            class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition">View
+                            Projects</a>
+                        <a href="#"
+                            class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium transition flex items-center"
+                            id="download-resume">
                             <i class="fas fa-download mr-2"></i> Resume
                         </a>
                     </div>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
                     <div class="relative">
-                        <div class="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full flex items-center justify-center">
-                            <div class="w-60 h-60 md:w-72 md:h-72 bg-white rounded-full overflow-hidden border-4 border-white">
-                                <img src="images/Passport_Photo.jpeg" alt="Deepak Dukare" class="w-full h-full object-cover">
+                        <div
+                            class="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full flex items-center justify-center">
+                            <div
+                                class="w-60 h-60 md:w-72 md:h-72 bg-white rounded-full overflow-hidden border-4 border-white">
+                                <img src="images/Passport_Photo.png" alt="Mayur Lad" class="w-full h-full object-cover">
                             </div>
                         </div>
                         <div class="absolute -bottom-5 -right-5 bg-white p-3 rounded-lg shadow-md">
@@ -127,33 +158,38 @@
                 <h2 class="text-3xl font-bold mb-4">About <span class="gradient-text">Me</span></h2>
                 <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
             </div>
-            
+
             <div class="flex flex-col md:flex-row items-center">
                 <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center">
                     <div class="w-64 h-64 rounded-full overflow-hidden border-4 border-blue-100">
-                        <img src="images/Passport_Photo.jpeg" alt="Deepak Dukare" class="w-full h-full object-cover">
+                        <img src="images/Passport_Photo.png" alt="Mayur Lad" class="w-full h-full object-cover">
                     </div>
                 </div>
                 <div class="md:w-2/3 md:pl-12">
                     <h3 class="text-2xl font-semibold mb-4">Who am I?</h3>
                     <p class="text-gray-600 mb-6">
-                        Driven by a deep passion for the ever-evolving world of technology, I'm a Computer Science Engineer with a specialization in Python and its powerful frameworks. My journey is fueled by a constant desire to learn and build, particularly in the exciting domains of Artificial Intelligence and Machine Learning. I thrive on transforming complex ideas into tangible projects, and I'm currently seeking a challenging and rewarding role as a Software Developer where I can contribute my skills and enthusiasm to innovative teams and impactful solutions.
+                        Driven by a deep passion for the ever-evolving world of technology, I'm a Computer Science
+                        Engineer with a specialization in Python and its powerful frameworks. My journey is fueled by a
+                        constant desire to learn and build, particularly in the exciting domains of Artificial
+                        Intelligence and Machine Learning. I thrive on transforming complex ideas into tangible
+                        projects, and I'm currently seeking a challenging and rewarding role as a Software Developer
+                        where I can contribute my skills and enthusiasm to innovative teams and impactful solutions.
                     </p>
-                    
+
                     <div class="mb-8">
                         <h4 class="text-xl font-semibold mb-4">Personal Details</h4>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div class="flex items-center">
                                 <i class="fas fa-birthday-cake text-blue-500 mr-3"></i>
-                                <span><span class="font-medium">Date of Birth:</span> 25 Dec, 2001</span>
+                                <span><span class="font-medium">Date of Birth:</span> 26 May, 2004</span>
                             </div>
                             <div class="flex items-center">
                                 <i class="fas fa-phone text-blue-500 mr-3"></i>
-                                <span><span class="font-medium">Phone:</span> +91-9175152244</span>
+                                <span><span class="font-medium">Phone:</span> +91-8262816029</span>
                             </div>
                             <div class="flex items-center">
                                 <i class="fas fa-envelope text-blue-500 mr-3"></i>
-                                <span><span class="font-medium">Email:</span> deepakdukare.rmdstic.comp@gmail.com</span>
+                                <span><span class="font-medium">Email:</span> mayursanjaylad@gmail.com</span>
                             </div>
                             <div class="flex items-center">
                                 <i class="fas fa-map-marker-alt text-blue-500 mr-3"></i>
@@ -169,22 +205,35 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div>
                         <h4 class="text-xl font-semibold mb-4">My Skills</h4>
                         <div class="flex flex-wrap gap-3">
-                            <span class="skill-pill bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium transition">React.js</span>
-                            <span class="skill-pill bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-medium transition">Node.js</span>
-                            <span class="skill-pill bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium transition">MongoDB</span>
-                            <span class="skill-pill bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-medium transition">JavaScript</span>
-                            <span class="skill-pill bg-red-100 text-red-800 px-4 py-2 rounded-full font-medium transition">Python</span>
-                            <span class="skill-pill bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full font-medium transition">Django</span>
-                            <span class="skill-pill bg-pink-100 text-pink-800 px-4 py-2 rounded-full font-medium transition">HTML/CSS</span>
-                            <span class="skill-pill bg-teal-100 text-teal-800 px-4 py-2 rounded-full font-medium transition">Git/GitHub</span>
-                            <span class="skill-pill bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium transition">Machine Learning</span>
-                            <span class="skill-pill bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-medium transition">YOLOv8</span>
-                            <span class="skill-pill bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium transition">OpenCV</span>
-                            <span class="skill-pill bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-medium transition">TensorFlow</span>
+                            <span
+                                class="skill-pill bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium transition">React.js</span>
+                            <span
+                                class="skill-pill bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-medium transition">Node.js</span>
+                            <span
+                                class="skill-pill bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium transition">MongoDB</span>
+                            <span
+                                class="skill-pill bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-medium transition">JavaScript</span>
+                            <span
+                                class="skill-pill bg-red-100 text-red-800 px-4 py-2 rounded-full font-medium transition">Python</span>
+                            <span
+                                class="skill-pill bg-indigo-100 text-indigo-800 px-4 py-2 rounded-full font-medium transition">Django</span>
+                            <span
+                                class="skill-pill bg-pink-100 text-pink-800 px-4 py-2 rounded-full font-medium transition">HTML/CSS</span>
+                            <span
+                                class="skill-pill bg-teal-100 text-teal-800 px-4 py-2 rounded-full font-medium transition">Git/GitHub</span>
+                            <span
+                                class="skill-pill bg-blue-100 text-blue-800 px-4 py-2 rounded-full font-medium transition">Machine
+                                Learning</span>
+                            <span
+                                class="skill-pill bg-purple-100 text-purple-800 px-4 py-2 rounded-full font-medium transition">YOLOv8</span>
+                            <span
+                                class="skill-pill bg-green-100 text-green-800 px-4 py-2 rounded-full font-medium transition">OpenCV</span>
+                            <span
+                                class="skill-pill bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-medium transition">TensorFlow</span>
                         </div>
                     </div>
                 </div>
@@ -199,7 +248,7 @@
                 <h2 class="text-3xl font-bold mb-4">My <span class="gradient-text">Journey</span></h2>
                 <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
             </div>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Education -->
                 <div class="bg-white p-6 rounded-xl shadow-sm">
@@ -209,530 +258,443 @@
                     <div class="space-y-8 relative">
                         <!-- Education Item 1 -->
                         <div class="timeline-item relative pl-8">
-                            <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-blue-500 border-4 border-blue-100"></div>
+                            <div
+                                class="absolute left-0 top-0 w-4 h-4 rounded-full bg-blue-500 border-4 border-blue-100">
+                            </div>
                             <div class="bg-blue-50 p-4 rounded-lg">
-                                <h4 class="font-bold text-lg">B.E. - Computer Science & Engineering</h4>
-                                <p class="text-gray-600 mb-2">RMD Sinhgad College of Engineering</p>
-                                <p class="text-sm text-gray-500 mb-2">2021 - 2025 | CGPA: 7.78/10</p>
+                                <h4 class="font-bold text-lg">B.E. - Computer Engineering</h4>
+                                <p class="text-gray-600 mb-2">RMD Sinhgad Technical Institute Campus, Pune</p>
+                                <p class="text-sm text-gray-500 mb-2">2021 - 2025 | CGPA: 7.16</p>
                             </div>
                         </div>
-                        
+
                         <!-- Education Item 2 -->
                         <div class="timeline-item relative pl-8">
-                            <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-blue-500 border-4 border-blue-100"></div>
-                            <div class="bg-blue-50 p-4 rounded-lg">
-                                <h4 class="font-bold text-lg">12th Grade</h4>
-                                <p class="text-gray-600 mb-2">Shri Pandurang Junior College, Pune</p>
-                                <p class="text-sm text-gray-500 mb-2">2021 | Percentage: 87.83/100</p>
+                            <div
+                                class="absolute left-0 top-0 w-4 h-4 rounded-full bg-blue-500 border-4 border-blue-100">
                             </div>
-                        </div>
-                        
-                        <!-- Education Item 3 -->
-                        <div class="timeline-item relative pl-8">
-                            <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-blueysical500 border-4 border-blue-100"></div>
                             <div class="bg-blue-50 p-4 rounded-lg">
-                                <h4 class="font-bold text-lg">10th Grade</h4>
-                                <p class="text-gray-600 mb-2">Modern English School, Pune</p>
-                                <p class="text-sm text-gray-500 mb-2">2019 | CBSE | Percentage: 74.40/100</p>
+                                <h4 class="font-bold text-lg">Higher Secondary Certificate (HSC)</h4>
+                                <p class="text-gray-600 mb-2">MES Bal Shikshan Mandir HSS, Pune</p>
+                                <p class="text-sm text-gray-500 mb-2">2021 | Percentage: 80.83%</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                
+
+
+                <!-- Experience -->
                 <!-- Experience -->
                 <div class="bg-white p-6 rounded-xl shadow-sm">
                     <h3 class="text-2xl font-semibold mb-6 flex items-center">
                         <i class="fas fa-briefcase text-purple-500 mr-3"></i> Experience
                     </h3>
                     <div class="space-y-8 relative">
-                        <!-- Experience Item 1 -->
+
+                        <!-- Infosys Internship -->
                         <div class="timeline-item relative pl-8">
-                            <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-purple-500 border-4 border-purple-100"></div>
+                            <div
+                                class="absolute left-0 top-0 w-4 h-4 rounded-full bg-purple-500 border-4 border-purple-100">
+                            </div>
                             <div class="bg-purple-50 p-4 rounded-lg">
-                                <h4 class="font-bold text-lg">MERN Stack Developer Intern</h4>
-                                <p class="text-gray-600 mb-2">Infosys Springboard</p>
-                                <p class="text-sm text-gray-500 mb-2">Mar 2024 - Jun 2024</p>
+                                <h4 class="font-bold text-lg">MERN Stack Intern</h4>
+                                <p class="text-gray-600 mb-2">Infosys Springboard Internship 4.0</p>
+                                <p class="text-sm text-gray-500 mb-2">Jan 2024 – Jun 2024</p>
                                 <ul class="list-disc pl-5 text-gray-700 space-y-1">
-                                    <li>Developed full-stack web applications using React.js, Node.js, and Express.js</li>
-                                    <li>Implemented JWT-based authentication and CRUD functionality</li>
-                                    <li>Optimized MongoDB database performance by 15%</li>
-                                    <li>Integrated notification system improving task completion by 20%</li>
+                                    <li>Designed a full-featured stock trading simulation web app using the MERN stack.
+                                    </li>
+                                    <li>Implemented JWT authentication and session persistence with MongoDB Atlas.</li>
+                                    <li>Deployed and presented the final project with complete documentation.</li>
                                 </ul>
                             </div>
                         </div>
-                        
-                        <!-- Experience Item 2 -->
+
+                        <!-- Elite Softwares -->
                         <div class="timeline-item relative pl-8">
-                            <div class="absolute left-0 top-0 w-4 h-4 rounded-full bg-purple-500 border-4 border-purple-100"></div>
+                            <div
+                                class="absolute left-0 top-0 w-4 h-4 rounded-full bg-purple-500 border-4 border-purple-100">
+                            </div>
                             <div class="bg-purple-50 p-4 rounded-lg">
-                                <h4 class="font-bold text-lg">Python-Django Intern</h4>
-                                <p class="text-gray-600 mb-2">Elite Software</p>
-                                <p class="text-sm text-gray-500 mb-2">Dec 2023 - Jan 2024</p>
+                                <h4 class="font-bold text-lg">Python Django Web Developer Intern</h4>
+                                <p class="text-gray-600 mb-2">Elite Softwares</p>
+                                <p class="text-sm text-gray-500 mb-2">Dec 2023 – Jan 2024</p>
                                 <ul class="list-disc pl-5 text-gray-700 space-y-1">
-                                    <li>Designed and developed responsive web pages using HTML, CSS, Bootstrap</li>
-                                    <li>Contributed to both frontend and backend development with Django framework</li>
-                                    <li>Created reusable components enhancing application functionality</li>
-                                    <li>Utilized Git for version control and participated in code reviews</li>
+                                    <li>Developed Django-based websites and integrated AI chatbot systems.</li>
+                                    <li>Enhanced REST API performance and collaborated with backend teams.</li>
+                                    <li>Managed production deployment of client-facing features.</li>
                                 </ul>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Certifications -->
-            <div class="mt-12 bg-white p-6 rounded-xl shadow-sm">
-                <h3 class="text-2xl font-semibold mb-6 flex items-center">
-                    <i class="fas fa-certificate text-green-500 mr-3"></i> Certifications
-                </h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <!-- Certification 1: Responsive Web Design -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-green-100 p-2 rounded-full mr-3">
-                                <i class="fas fa-code text-green-600"></i>
-                            </div>
-                            <h4 class="font-bold">Responsive Web Design</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">FreeCodeCamp</p>
-                        <p class="text-gray-700 text-sm">HTML, CSS, responsive design principles, accessibility best practices</p>
-                    </div>
-                    
-                    <!-- Certification 2: JavaScript Algorithms and Data Structures -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-blue-100 p-2 rounded-full mr-3">
-                                <i class="fab fa-js text-blue-600"></i>
-                            </div>
-                            <h4 class="font-bold">JavaScript Algorithms and Data Structures</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">FreeCodeCamp</p>
-                        <p class="text-gray-700 text-sm">JavaScript fundamentals, DOM, OOP, Functional Programming, algorithmic thinking</p>
-                    </div>
-                    
-                    <!-- Certification 3: Crash Course on Python -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-red-100 p-2 rounded-full mr-3">
-                                <i class="fab fa-python text-red-600"></i>
-                            </div>
-                            <h4 class="font-bold">Crash Course on Python</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">Google (Score: 87.50/100)</p>
-                        <p class="text-gray-700 text-sm">Python fundamentals, data structures, problem solving</p>
-                    </div>
-                    
-                    <!-- Certification 4: Google AI Essentials -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-purple-100 p-2 rounded-full mr-3">
-                                <i class="fas fa-brain text-purple-600"></i>
-                            </div>
-                            <h4 class="font-bold">Google AI Essentials</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">Google (Score: 96/100)</p>
-                        <p class="text-gray-700 text-sm">AI fundamentals, ML, generative AI models, ethical AI use</p>
-                    </div>
-                    
-                    <!-- Certification 5: Artificial Intelligence Fundamentals -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-indigo-100 p-2 rounded-full mr-3">
-                                <i class="fas fa-robot text-indigo-600"></i>
-                            </div>
-                            <h4 class="font-bold">Artificial Intelligence Fundamentals</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">IBM SkillsBuild</p>
-                        <p class="text-gray-700 text-sm">ML, NLP, neural networks, AI ethics, IBM Watson Studio</p>
-                    </div>
-                    
-                    <!-- Certification 6: Introduction to Git and GitHub -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-yellow-100 p-2 rounded-full mr-3">
-                                <i class="fab fa-git-alt text-yellow-600"></i>
-                            </div>
-                            <h4 class="font-bold">Introduction to Git and GitHub</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">Google</p>
-                        <p class="text-gray-700 text-sm">Version control, GitHub, pull requests, collaboration</p>
-                    </div>
-                    
-                    <!-- Certification 7: Troubleshooting and Debugging Techniques -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-orange-100 p-2 rounded-full mr-3">
-                                <i class="fas fa-tools text-orange-600"></i>
-                            </div>
-                            <h4 class="font-bold">Troubleshooting and Debugging Techniques</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">Google</p>
-                        <p class="text-gray-700 text-sm">Managing scarce resources, improving software performance, finding root causes, advanced troubleshooting, understanding errors</p>
-                    </div>
-                    
-                    <!-- Certification 8: Configuration Management and the Cloud -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-teal-100 p-2 rounded-full mr-3">
-                                <i class="fas fa-cloud text-teal-600"></i>
-                            </div>
-                            <h4 class="font-bold">Configuration Management and the Cloud</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">Google</p>
-                        <p class="text-gray-700 text-sm">Python programming, basic Python syntax, OOP, Python data structures, fundamental programming concepts</p>
-                    </div>
-                    
-                    <!-- Certification 9: Automating Real-World Tasks with Python -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-pink-100 p-2 rounded-full mr-3">
-                                <i class="fas fa-cogs text-pink-600"></i>
-                            </div>
-                            <h4 class="font-bold">Automating Real-World Tasks with Python</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">Google</p>
-                        <p class="text-gray-700 text-sm">Automating system administration tasks, development environment setup, Bash scripting, REGEX, testing in Python</p>
-                    </div>
-                    
-                    <!-- Certification 10: Using Python to Interact with the Operating System -->
-                    <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
-                        <div class="flex items-center mb-3">
-                            <div class="bg-gray-100 p-2 rounded-full mr-3">
-                                <i class="fas fa-terminal text-gray-600"></i>
-                            </div>
-                            <h4 class="font-bold">Using Python to Interact with the Operating System</h4>
-                        </div>
-                        <p class="text-gray-600 text-sm mb-2">Google</p>
-                        <p class="text-gray-700 text-sm">Managing scarce resources, improving software performance, finding root causes, advanced troubleshooting, understanding errors</p>
-                    </div>
-                </div>
-            </div>
-                
-            <!-- LinkedIn Posts -->
-            <div class="mt-12 bg-white p-6 rounded-xl shadow-sm">
-                <h3 class="text-2xl font-semibold mb-6 flex items-center">
-                    <i class="fab fa-linkedin text-blue-600 mr-3"></i> Latest LinkedIn Posts
-                </h3>
-                <div class="space-y-6">
-                    <!-- Post 1 -->
-                    <div class="linkedin-post bg-gray-50 p-6 rounded-lg transition">
-                        <div class="flex items-start mb-4">
-                            <div class="bg-blue-100 p-3 rounded-full mr-4">
-                                <i class="fas fa-trophy text-blue-600"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-lg">ML Spark Competition Participation</h4>
-                                <p class="text-gray-600 text-sm mb-2">Posted on LinkedIn • May 2024</p>
-                            </div>
-                        </div>
-                        <p class="text-gray-700 mb-4">
-                            Proud to share that I participated in ML Spark, a machine learning competition held under TVASTR'25 – The Analytics Fest, organized by the Analytics Club, School of Management Studies, University of Hyderabad. It was a fantastic opportunity to put my skills to the test, connect with passionate individuals, and dive deeper into real-world ML problem-solving. Grateful for the experience and looking forward to more such enriching challenges!
-                        </p>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318326150596849664/" target="_blank" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
-                            View Post <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
-                    </div>
 
-                    <!-- Post 2 -->
-                    <div class="linkedin-post bg-gray-50 p-6 rounded-lg transition">
-                        <div class="flex items-start mb-4">
-                            <div class="bg-green-100 p-3 rounded-full mr-4">
-                                <i class="fas fa-project-diagram text-green-600"></i>
+                        <!-- EY GDS -->
+                        <div class="timeline-item relative pl-8">
+                            <div
+                                class="absolute left-0 top-0 w-4 h-4 rounded-full bg-purple-500 border-4 border-purple-100">
                             </div>
-                            <div>
-                                <h4 class="font-bold text-lg">Income & Expense Manager with Stock & Invoice System</h4>
-                                <p class="text-gray-600 text-sm mb-2">Posted on LinkedIn • May 2024</p>
+                            <div class="bg-purple-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-lg">Full Stack Intern</h4>
+                                <p class="text-gray-600 mb-2">EY GDS – Edunet Foundation</p>
+                                <p class="text-sm text-gray-500 mb-2">Dec 2024 – Jan 2025</p>
+                                <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                                    <li>Built chatbot interfaces and integrated them into client websites.</li>
+                                    <li>Utilized Django REST Framework and React.js for seamless API communication.</li>
+                                </ul>
                             </div>
                         </div>
-                        <p class="text-gray-700 mb-4">
-                            Project Completed in Just 6 Hours: Income & Expense Manager with Stock & Invoice System. I'm excited to share my latest project built as part of a real-world Software Developer task assigned — a complete desktop application using Python, Tkinter, SQLite3, and FPDF — developed and delivered in just 6 hours!
-                        </p>
-                        <div class="mb-4">
-                            <h5 class="font-medium mb-2">🔹 Key Features:</h5>
-                            <ul class="list-disc pl-5 space-y-1 text-gray-700">
-                                <li>Stock Management: Add Purchase and Sale entries by Vendor Name, Automatically updates available stock</li>
-                                <li>Income & Expense Tracker: Create custom categories, Add amounts and instantly get Net Profit or Net Loss</li>
-                                <li>Custom Invoice Generator: Professional bill-style layout with company logo, PDF generation using FPDF</li>
-                            </ul>
-                        </div>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Python</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Tkinter</span>
-                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">SQLite3</span>
-                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">FPDF</span>
-                        </div>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7314335053356933121/" target="_blank" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
-                            View Post <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
-                        <a href="https://github.com/deepakdukare/income_and_expence" target="_blank" class="ml-4 text-gray-600 hover:text-gray-800 font-medium inline-flex items-center">
-                            View on GitHub <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
-                    </div>
 
-                    <!-- Post 3 -->
-                    <div class="linkedin-post bg-gray-50 p-6 rounded-lg transition">
-                        <div class="flex items-start mb-4">
-                            <div class="bg-purple-100 p-3 rounded-full mr-4">
-                                <i class="fas fa-laptop-code text-purple-600"></i>
+                        <!-- Sure Trust -->
+                        <div class="timeline-item relative pl-8">
+                            <div
+                                class="absolute left-0 top-0 w-4 h-4 rounded-full bg-purple-500 border-4 border-purple-100">
                             </div>
-                            <div>
-                                <h4 class="font-bold text-lg">Decode X 2025 – Hackathon Experience</h4>
-                                <p class="text-gray-600 text-sm mb-2">Posted on LinkedIn • February 2024</p>
+                            <div class="bg-purple-50 p-4 rounded-lg">
+                                <h4 class="font-bold text-lg">Machine Learning Intern</h4>
+                                <p class="text-gray-600 mb-2">Sure Trust</p>
+                                <p class="text-sm text-gray-500 mb-2">Mar 2025 – Present</p>
+                                <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                                    <li>Learned data preprocessing, visualization, statistics, and machine learning
+                                        fundamentals.</li>
+                                    <li>Implemented supervised learning algorithms for real-world applications.</li>
+                                </ul>
                             </div>
                         </div>
-                        <p class="text-gray-700 mb-4">
-                            On 14th & 15th February, I had the incredible opportunity to compete in the Finals of Decode X 2025 at N. L. Dalmia Institute—a 24-hour offline hackathon after successfully clearing the online qualifier round!
-                        </p>
-                        <div class="mb-4">
-                            <h5 class="font-medium mb-2">💡 Our Challenge:</h5>
-                            <p class="text-gray-700">
-                                Motor Insurance Part Mapping and Recommendation—developing a smart system to accurately map vehicle parts and provide optimized recommendations for repairs and replacements. By leveraging machine learning and data analytics, we worked on a solution that enhances efficiency, reduces costs, and minimizes fraud in motor insurance claims.
-                            </p>
-                        </div>
-                        <p class="text-gray-700 mb-4">
-                            After an intense night of non-stop coding, brainstorming, and problem-solving, we successfully submitted our solution by 10 AM on the 15th! Though we didn't make it to the winner's list, the experience was priceless—packed with learning, teamwork, and innovation.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Hackathon</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Machine Learning</span>
-                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Data Science</span>
-                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">Teamwork</span>
-                        </div>
-                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7302369724452016132/" target="_blank" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
-                            View Post <i class="fas fa-external-link-alt ml-2"></i>
-                        </a>
+
                     </div>
                 </div>
+
             </div>
         </div>
-    </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">My <span class="gradient-text">Projects</span></h2>
-                <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Project 1 -->
-                <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300">
-                    <div class="h-48 bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center">
-                        <i class="fas fa-road text-white text-6xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Road Pothole Detection Using YOLOv8</h3>
-                        <p class="text-gray-600 text-sm mb-4">Mentor: Shafali Gupta | Team Size: 3</p>
-                        <p class="text-gray-700 mb-4">
-                            Developed a real-time pothole detection system using YOLOv8 and image processing. Implemented class imbalance handling and integrated geotagging for civic maintenance.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">YOLOv8</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">OpenCV</span>
-                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Python</span>
-                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">PyTorch</span>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-gray-500">Sep 2024 - Apr 2025</span>
-                            <a href="https://github.com/deepakdukare/pothole_dection_using_yolov8" target="_blank" class="text-blue-600 hover:text-blue-800 text-sm font-medium">View on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Project 2 -->
-                <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300">
-                    <div class="h-48 bg-gradient-to-r from-green-400 to-blue-500 flex items-center justify-center">
-                        <i class="fas fa-tasks text-white text-6xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Daily Dose - Habit Tracker</h3>
-                        <p class="text-gray-600 text-sm mb-4">Mentor: Durga sravani vadlamanu | Team Size: 12</p>
-                        <p class="text-gray-700 mb-4">
-                            Full-stack web application for goal and habit management with caretaker collaboration. Features JWT authentication, notification system, and real-time progress tracking.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">React.js</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Node.js</span>
-                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">MongoDB</span>
-                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JWT</span>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-gray-500">Mar 2024 - Jun 2024</span>
-                            <a href="https://github.com/springboardmentor106/DailyDose-Team-02" target="_blank" class="text-blue-600 hover:text-blue-800 text-sm font-medium">View on GitHub</a>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Project 3 -->
-                <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300">
-                    <div class="h-48 bg-gradient-to-r from-red-400 to-orange-500 flex items-center justify-center">
-                        <i class="fas fa-money-bill-wave text-white text-6xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Income & Expense Manager with Stock & Invoice System</h3>
-                        <p class="text-gray-600 text-sm mb-4">Personal Project</p>
-                        <p class="text-gray-700 mb-4">
-                            A complete desktop application built using Python, Tkinter, SQLite3, and FPDF. Features stock management, income/expense tracking, and custom invoice generation.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Python</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Tkinter</span>
-                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">SQLite3</span>
-                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">FPDF</span>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-gray-500">May 2024</span>
-                            <a href="https://github.com/deepakdukare/income_and_expence" target="_blank" class="text-blue-600 hover:text-blue-800 text-sm font-medium">View on GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:scale-105 transform">
-    <div class="h-48 bg-gradient-to-r from-blue-500 to-yellow-400 flex items-center justify-center">
-        <i class="fas fa-plug text-white text-6xl"></i>
-    </div>
-    <div class="p-6">
-    <h3 class="text-xl font-bold mb-2">राम कृष्ण हरी दूध संकलन व शीतकरण केंद्र</h3>
-    <p class="text-gray-600 text-sm mb-4">Business Website</p>
-    <p class="text-gray-700 mb-4">
-        A professional, responsive website designed and developed for a local milk collection and chilling center. Provides details about services, timings, contact info, and integrates Google Maps and WhatsApp for direct farmer communication.
-    </p>
-    <div class="flex flex-wrap gap-2 mb-4">
-        <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
-        <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">CSS</span>
-        <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
-        <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
-    </div>
-    <div class="flex justify-between items-center">
-        <span class="text-sm text-gray-500">June 2025</span>
-        <a class="text-blue-600 hover:text-blue-800 text-sm font-medium" href="/rkhmilkcollection" target="_blank">Visit Website</a>
-    </div>
-</div>
+        <!-- Certifications -->
+        <div class="mt-12 bg-white p-6 rounded-xl shadow-sm">
+            <h3 class="text-2xl font-semibold mb-6 flex items-center">
+                <i class="fas fa-certificate text-green-500 mr-3"></i> Certifications
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-    <div class="p-6">
-        <h3 class="text-xl font-bold mb-2">Shubhadip Electronics & Electricals</h3>
-        <p class="text-gray-600 text-sm mb-4">Business Website</p>
-        <p class="text-gray-700 mb-4">
-            A professional, responsive website designed and developed for a local electrical and electronics shop. Showcases their products, services, contact info, and integrates Google Maps and WhatsApp chat for direct customer communication.
-        </p>
-        <div class="flex flex-wrap gap-2 mb-4">
-            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
-            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">CSS</span>
-            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
-            <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
-        </div>
-        <div class="flex justify-between items-center">
-            <span class="text-sm text-gray-500">June 2025</span>
-            <a class="text-blue-600 hover:text-blue-800 text-sm font-medium" href="/shubhadip" target="_blank">Visit Website</a>
-        </div>
-    </div>
-</div>
-
-            </div>
-            
-            <!-- Publications -->
-            <div class="mt-16">
-                <h3 class="text-2xl font-semibold mb-6 text-center">Publications & Research</h3>
-                <div class="bg-gray-50 rounded-xl p-6 shadow-md">
-                    <h4 class="text-xl font-bold mb-2">A SURVEY: POTHOLE DETECTION WITH DEPTH ANALYSIS AND REAL-TIME ALERTS</h4>
-                    <p class="text-gray-600 text-sm mb-4">International Research Journal Of Modernization in Engineering Technology and Science | Nov 2024</p>
-                    <p class="text-gray-700 mb-4">
-                        Explored methodologies for identifying potholes using machine learning, image processing, and IoT. Proposed a novel approach integrating depth measurement for accuracy enhancement with real-time alerts through IoT devices.
+                <!-- Young Java Professional -->
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-yellow-100 p-2 rounded-full mr-3">
+                            <i class="fab fa-java text-yellow-600"></i>
+                        </div>
+                        <h4 class="font-bold">Young Java Professional</h4>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-2">Infosys Springboard</p>
+                    <p class="text-gray-700 text-sm">Core Java programming, OOP concepts, exception handling, file I/O
                     </p>
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Machine Learning</span>
-                        <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Image Processing</span>
-                        <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">IoT</span>
+                </div>
+
+                <!-- Responsive Web Design -->
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-green-100 p-2 rounded-full mr-3">
+                            <i class="fas fa-code text-green-600"></i>
+                        </div>
+                        <h4 class="font-bold">Responsive Web Design</h4>
                     </div>
-                    <a href="https://www.irjmets.com/uploadedfiles/paper//issue_11_november_2024/63753/final/fin_irjmets1731477585.pdf" target="_blank" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
-                        View Publication <i class="fas fa-external-link-alt ml-2"></i>
-                    </a>
+                    <p class="text-gray-600 text-sm mb-2">freeCodeCamp</p>
+                    <p class="text-gray-700 text-sm">HTML, CSS, responsive layouts, accessibility practices</p>
+                </div>
+
+                <!-- Data Visualization with Python -->
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-blue-100 p-2 rounded-full mr-3">
+                            <i class="fas fa-chart-bar text-blue-600"></i>
+                        </div>
+                        <h4 class="font-bold">Data Visualization with Python</h4>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-2">Cognitive Class (IBM)</p>
+                    <p class="text-gray-700 text-sm">Matplotlib, Seaborn, Pandas, and visualization techniques</p>
+                </div>
+
+                <!-- SQL Intermediate -->
+                <div class="border border-gray-200 rounded-lg p-4 hover:shadow-md transition">
+                    <div class="flex items-center mb-3">
+                        <div class="bg-indigo-100 p-2 rounded-full mr-3">
+                            <i class="fas fa-database text-indigo-600"></i>
+                        </div>
+                        <h4 class="font-bold">SQL Intermediate</h4>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-2">HackerRank</p>
+                    <p class="text-gray-700 text-sm">Subqueries, joins, aggregation, filtering, and set operations</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <section id="projects" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold mb-4">My <span class="gradient-text">Projects</span></h2>
+                    <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                    <!-- Project 1 -->
+                    <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300">
+                        <div class="h-48 bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center">
+                            <i class="fas fa-road text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Shadow Detection and Removal From Images</h3>
+                            <p class="text-gray-600 text-sm mb-4">Mentor: Shafali Gupta | Team Size: 4</p>
+                            <p class="text-gray-700 mb-4">
+                                Developed a deep learning model for shadow detection and removal using pre-trained VGG19
+                                and DHAN architecture,
+                                achieving accurate shadow segmentation and artifact-free image restoration.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">VGG19</span>
+                                <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">DHAN</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Python</span>
+                                <span
+                                    class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">PyTorch</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+                                <span class="text-sm text-gray-500">Sep 2024 - Apr 2025</span>
+                                <div class="flex gap-4">
+                                    <a href="https://your-live-demo-link.com" target="_blank"
+                                        class="text-green-600 hover:text-green-800 text-sm font-medium">Live Demo</a>
+                                    <a href="https://github.com/mayurlad/pothole_dection_using_yolov8" target="_blank"
+                                        class="text-blue-600 hover:text-blue-800 text-sm font-medium">View on GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300">
+                        <div class="h-48 bg-gradient-to-r from-green-400 to-blue-500 flex items-center justify-center">
+                            <i class="fas fa-tasks text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Virtual Stock Market Simulator</h3>
+                            <p class="text-gray-600 text-sm mb-4">Mentor: Venkat Pantham | Team Size: 12</p>
+                            <p class="text-gray-700 mb-4">
+                                Designed and implemented a full-featured stock trading simulation web app using the MERN
+                                stack.
+                                Developed session persistence and secure authentication using JWT and MongoDB Atlas.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">React.js</span>
+                                <span
+                                    class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Node.js</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">MongoDB</span>
+                                <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JWT</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+                                <span class="text-sm text-gray-500">Mar 2024 - Jun 2024</span>
+                                <div class="flex gap-4">
+                                    <a href="https://your-live-demo-link.com/stock-sim" target="_blank"
+                                        class="text-green-600 hover:text-green-800 text-sm font-medium">Live Demo</a>
+                                    <a href="https://github.com/springboardmentor106/DailyDose-Team-02" target="_blank"
+                                        class="text-blue-600 hover:text-blue-800 text-sm font-medium">View on GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300">
+                        <div class="h-48 bg-gradient-to-r from-red-400 to-orange-500 flex items-center justify-center">
+                            <i class="fas fa-money-bill-wave text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Income & Expense Manager with Stock & Invoice System</h3>
+                            <p class="text-gray-600 text-sm mb-4">Personal Project</p>
+                            <p class="text-gray-700 mb-4">
+                                A complete desktop application built using Python, Tkinter, SQLite3, and FPDF.
+                                Features stock management, income/expense tracking, and custom invoice generation.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Python</span>
+                                <span
+                                    class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Tkinter</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">SQLite3</span>
+                                <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">FPDF</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+                                <span class="text-sm text-gray-500">May 2024</span>
+                                <div class="flex gap-4">
+                                    <a href="https://your-live-demo-link.com/income-expense" target="_blank"
+                                        class="text-green-600 hover:text-green-800 text-sm font-medium">Live Demo</a>
+                                    <a href="https://github.com/mayurlad/income_and_expence" target="_blank"
+                                        class="text-blue-600 hover:text-blue-800 text-sm font-medium">View on GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div
+                        class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:scale-105 transform">
+                        <div class="h-48 bg-gradient-to-r from-blue-500 to-yellow-400 flex items-center justify-center">
+                            <i class="fas fa-plug text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">News Aggregator App</h3>
+                            <p class="text-gray-600 text-sm mb-4">Personal Project</p>
+                            <p class="text-gray-700 mb-4">
+                                Scrapes and categorizes top news headlines from multiple trusted sources in real-time.
+                                Users can save, share, and filter news by categories, date, and tags.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">CSS</span>
+                                <span
+                                    class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                                <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+                                <span class="text-sm text-gray-500">June 2025</span>
+                                <div class="flex gap-4">
+                                    <a href="https://your-live-demo-link.com/news-aggregator" target="_blank"
+                                        class="text-green-600 hover:text-green-800 text-sm font-medium">Live Demo</a>
+                                    <a href="https://github.com/yourusername/news-aggregator" target="_blank"
+                                        class="text-blue-600 hover:text-blue-800 text-sm font-medium">View on GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div
+                        class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:scale-105 transform">
+                        <div class="h-48 bg-gradient-to-r from-blue-500 to-yellow-400 flex items-center justify-center">
+                            <i class="fas fa-plug text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Real-Time Chat Application</h3>
+                            <p class="text-gray-600 text-sm mb-4">Personal Project</p>
+                            <p class="text-gray-700 mb-4">
+                                Implemented real-time messaging with live notifications using SuprSend API.
+                                Added typing indicators, user presence detection, and private/public chat rooms.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">CSS</span>
+                                <span
+                                    class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                                <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+                                <span class="text-sm text-gray-500">June 2025</span>
+                                <div class="flex gap-4">
+                                    <a href="https://your-live-demo-link.com/news-aggregator" target="_blank"
+                                        class="text-green-600 hover:text-green-800 text-sm font-medium">Live Demo</a>
+                                    <a href="https://github.com/yourusername/news-aggregator" target="_blank"
+                                        class="text-blue-600 hover:text-blue-800 text-sm font-medium">View on GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div
+                        class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300 hover:shadow-xl hover:scale-105 transform">
+                        <div class="h-48 bg-gradient-to-r from-blue-500 to-yellow-400 flex items-center justify-center">
+                            <i class="fas fa-plug text-white text-6xl"></i>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2">Real-Time Chat Application</h3>
+                            <p class="text-gray-600 text-sm mb-4">Personal Project</p>
+                            <p class="text-gray-700 mb-4">
+                                Implemented real-time messaging with live notifications using SuprSend API.
+                                Added typing indicators, user presence detection, and private/public chat rooms.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
+                                <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">CSS</span>
+                                <span
+                                    class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                                <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">Tailwind CSS</span>
+                            </div>
+                            <div class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+                                <span class="text-sm text-gray-500">June 2025</span>
+                                <div class="flex gap-4">
+                                    <a href="https://your-live-demo-link.com/news-aggregator" target="_blank"
+                                        class="text-green-600 hover:text-green-800 text-sm font-medium">Live Demo</a>
+                                    <a href="https://github.com/yourusername/news-aggregator" target="_blank"
+                                        class="text-blue-600 hover:text-blue-800 text-sm font-medium">View on GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+        </section>
+
+
+        <!-- Publications -->
+        <div class="mt-16">
+            <h3 class="text-2xl font-semibold mb-6 text-center">Publications & Research</h3>
+            <div class="bg-gray-50 rounded-xl p-6 shadow-md">
+                <h4 class="text-xl font-bold mb-2">A SURVEY: SHADOW DETECTION AND REMOVAL USING DHAN & SMGAN</h4>
+                <p class="text-gray-600 text-sm mb-4">International Research Journal Of Modernization in
+                    Engineering Technology and Science | Nov 2024</p>
+                <p class="text-gray-700 mb-4">
+                    This survey explores two advanced deep learning models, DHAN and SMGAN, used for shadow detection
+                    and removal in images. It highlights how DHAN uses direction-aware features to detect shadows
+                    accurately, while SMGAN leverages generative adversarial networks to remove shadows effectively.
+                </p>
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Machine
+                        Learning</span>
+                    <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Image
+                        Processing</span>
+                    <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">IoT</span>
+                </div>
+                <a href="https://www.irjmets.com/uploadedfiles/paper//issue_11_november_2024/63753/final/fin_irjmets1731477585.pdf"
+                    target="_blank" class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                    View Publication <i class="fas fa-external-link-alt ml-2"></i>
+                </a>
+            </div>
+        </div>
         </div>
     </section>
 
-<!-- Live Projects Section -->
-    <section id="live-projects" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold mb-4">Live <span class="gradient-text">Projects</span></h2>
-                <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
+
+    <!-- LinkedIn Posts -->
+    <div class="mt-12 bg-white p-6 rounded-xl shadow-sm">
+        <h3 class="text-2xl font-semibold mb-6 flex items-center">
+            <i class="fab fa-github text-gray-800 mr-3"></i> Open Source Contribution
+        </h3>
+        <div class="space-y-6">
+            <!-- Post 1 -->
+
+            <div class="linkedin-post bg-gray-50 p-6 rounded-lg transition">
+                <div class="flex items-start mb-4">
+                    <div class="bg-blue-100 p-3 rounded-full mr-4">
+                        <i class="fas fa-trophy text-blue-600"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg">Coming soon...</h4>
+                        <p class="text-gray-600 text-sm mb-2">Contributed on • May 2024</p>
+                    </div>
+                </div>
+                <p class="text-gray-700 mb-4">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque maxime recusandae adipisci
+                    necessitatibus, dolorum nulla hic porro ipsam error a. Ea doloremque tempora ut? Repudiandae
+                    blanditiis inventore voluptatum animi quidem!
+                </p>
+                <a href="https://www.linkedin.com/feed/update/urn:li:activity:7318326150596849664/" target="_blank"
+                    class="text-blue-600 hover:text-blue-800 font-medium inline-flex items-center">
+                    View Repo <i class="fas fa-external-link-alt ml-2"></i>
+                </a>
             </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Live Project 1 -->
-                <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300">
-                    <div class="h-48 bg-gradient-to-r from-teal-400 to-blue-500 flex items-center justify-center">
-                        <i class="fas fa-cloud-sun text-white text-6xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Deep Weather | Real-time Weather Forecast</h3>
-                        <p class="text-gray-600 text-sm mb-4">Personal Project</p>
-                        <p class="text-gray-700 mb-4">
-                            A web application providing real-time weather forecasts using an external weather API. Features a responsive design and user-friendly interface for checking weather conditions globally.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">CSS</span>
-                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
-                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">API Integration</span>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-gray-500">2025</span>
-                            <a class="text-blue-600 hover:text-blue-800 text-sm font-medium" href="/weather" target="_blank">View Live</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Live Project 2 -->
-                <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300">
-                    <div class="h-48 bg-gradient-to-r from-teal-400 to-blue-500 flex items-center justify-center">
-                        <i class="fas fa-calculator text-white text-6xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Codey's Counting Conundrum</h3>
-                        <p class="text-gray-600 text-sm mb-4">Personal Project</p>
-                        <p class="text-gray-700 mb-4">
-                            A web-based educational game designed to help children practice counting and basic math skills. Features an interactive interface with engaging animations and responsive design.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">CSS</span>
-                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
-                            <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">Animation</span>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-gray-500">2025</span>
-                            <a class="text-blue-600 hover:text-blue-800 text-sm font-medium" href="/codeys_counting_conundrum" target="_blank">View Live</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Live Project 3 -->
-                <div class="project-card bg-gray-50 rounded-xl overflow-hidden shadow-md transition duration-300">
-                    <div class="h-48 bg-gradient-to-r from-teal-400 to-blue-500 flex items-center justify-center">
-                        <i class="fas fa-paint-brush text-white text-6xl"></i>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Dynamic Multi-CSS Property Selector</h3>
-                        <p class="text-gray-600 text-sm mb-4">Personal Project</p>
-                        <p class="text-gray-700 mb-4">
-                            An interactive CSS property explorer and code generator that allows users to experiment with multiple CSS properties in real-time and generate corresponding code snippets.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">HTML</span>
-                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">CSS</span>
-                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">JavaScript</span>
-                            <span class="bg-orange-100 text-orange-800 text-xs px-3 py-1 rounded-full">Interactive UI</span>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <span class="text-sm text-gray-500">2025</span>
-                            <a class="text-blue-600 hover:text-blue-800 text-sm font-medium" href="/multiple" target="_blank">View Live</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+
         </div>
+    </div>
+    </div>
     </section>
+
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -740,7 +702,7 @@
                 <h2 class="text-3xl font-bold mb-4">Get In <span class="gradient-text">Touch</span></h2>
                 <div class="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto"></div>
             </div>
-            
+
             <div class="flex flex-col md:flex-row gap-12">
                 <div class="md:w-1/2">
                     <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
@@ -751,33 +713,35 @@
                             </div>
                             <div>
                                 <h4 class="font-medium text-lg">Location</h4>
-                                <p class="text-gray-600">Kaveri Hostel, S. No. 10/1, Ambegaon (Bk), Pune, Maharashtra, India - 411041</p>
+                                <p class="text-gray-600">Panchkrushna Niwas,Behind Sahyadri National School, S. No.
+                                    140/2, Warje Malwadi, Pune, Maharashtra,
+                                    India - 411058</p>
                             </div>
                         </div>
-                        
+
                         <div class="flex items-start">
                             <div class="bg-purple-100 p-3 rounded-full mr-4">
                                 <i class="fas fa-envelope text-purple-600"></i>
                             </div>
                             <div>
                                 <h4 class="font-medium text-lg">Email</h4>
-                                <p class="text-gray-600">deepakdukare.rmdstic.comp@gmail.com</p>
-                                <p class="text-gray-600">deepakdukare2020@gmail.com</p>
+                                <p class="text-gray-600">mayurlad.rmdstic.comp@gmail.com</p>
+                                <p class="text-gray-600">mayursanjaylad@gmail.com</p>
                             </div>
                         </div>
-                        
+
                         <div class="flex items-start">
                             <div class="bg-green-100 p-3 rounded-full mr-4">
                                 <i class="fas fa-phone text-green-600"></i>
                             </div>
                             <div>
                                 <h4 class="font-medium text-lg">Phone</h4>
-                                <p class="text-gray-600">+91-9175152244</p>
-                                <p class="text-gray-600">+91-9834734811</p>
+                                <p class="text-gray-600">+91-8262816029</p>
+                                <p class="text-gray-600">+91-9637432631</p>
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="mt-8">
                         <h4 class="text-xl font-semibold mb-4">Connect With Me</h4>
                         <div class="flex space-x-4">
@@ -796,29 +760,36 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="md:w-1/2">
                     <h3 class="text-2xl font-semibold mb-6">Send Me a Message</h3>
                     <form class="space-y-4">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div>
                                 <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
-                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                                <input type="text" id="name"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
                             </div>
                             <div>
-                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Your Email</label>
-                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Your
+                                    Email</label>
+                                <input type="email" id="email"
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
                             </div>
                         </div>
                         <div>
                             <label for="subject" class="block text-sm font-medium text-gray-700 mb-1">Subject</label>
-                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+                            <input type="text" id="subject"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
                         </div>
                         <div>
                             <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
-                            <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"></textarea>
+                            <textarea id="message" rows="4"
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500"></textarea>
                         </div>
-                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition w-full">Send Message</button>
+                        <button type="submit"
+                            class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition w-full">Send
+                            Message</button>
                     </form>
                 </div>
             </div>
@@ -830,7 +801,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center">
                 <div class="mb-4 md:mb-0">
-                    <a href="#" class="text-xl font-bold gradient-text">Deepak Dukare</a>
+                    <a href="#" class="text-xl font-bold gradient-text">Mayur Lad</a>
                     <p class="text-gray-400 mt-2">Full Stack Developer & AI Enthusiast</p>
                 </div>
                 <div class="flex space-x-6">
@@ -843,14 +814,14 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-                <p>© 2025 Deepak Santosh Dukare. All rights reserved.</p>
+                <p>© 2025 Mayur Sanjay Lad. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
     <script>
         // Mobile menu toggle
-        document.getElementById('menu-toggle').addEventListener('click', function() {
+        document.getElementById('menu-toggle').addEventListener('click', function () {
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         });
@@ -859,16 +830,16 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 const targetElement = document.querySelector(targetId);
-                
+
                 if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 80,
                         behavior: 'smooth'
                     });
-                    
+
                     // Close mobile menu if open
                     const mobileMenu = document.getElementById('mobile-menu');
                     if (!mobileMenu.classList.contains('hidden')) {
@@ -879,7 +850,7 @@
         });
 
         // Add shadow to navbar on scroll
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const nav = document.querySelector('nav');
             if (window.scrollY > 10) {
                 nav.classList.add('shadow-lg');
@@ -889,7 +860,7 @@
         });
 
         // Resume download button
-        document.getElementById('download-resume').addEventListener('click', function(e) {
+        document.getElementById('download-resume').addEventListener('click', function (e) {
             e.preventDefault();
             // In a real implementation, this would link to your actual resume PDF
             alert('Resume downloading started');
@@ -898,4 +869,6 @@
         });
     </script>
 
-</body></html>
+</body>
+
+</html>
